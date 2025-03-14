@@ -1,9 +1,10 @@
-﻿#include <iostream>
+#include <iostream>
 #include <vector>
 #include <cmath>
+#include <limits>
 #include "ComeMove.h"
 #include "Check.h"
-#include<limits>
+
 
 ComeMove cm;
 Checker check;
