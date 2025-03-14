@@ -1,8 +1,8 @@
-﻿#include "ComeMove.h"
+#include "ComeMove.h"
 
 bool ComeMove::Come_Move(int x, int y, int x2, int y2)
 {
-    return (x == x2 || y == y2 || std::abs(x - x2) == std::abs(y - y2)); //Проверка на то можно ли сделать ход
+    return (x == x2 || y == y2 || std::abs(x - x2) == std::abs(y - y2)); //Проверка на то можно ли сделать ход  если x ==x1 то ход доступен по диагоналям и тд
 }
 
 void ComeMove::CheckYesorNot(std::vector<std::pair<int, int>> moves, int x, int y) {
